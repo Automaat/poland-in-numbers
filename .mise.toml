@@ -1,0 +1,6 @@
+[tools]
+node = "25.2.1"
+
+[tasks.install]
+run = "npm install"
+description = "Install Node.js dependencies"
