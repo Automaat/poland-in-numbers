@@ -4,3 +4,19 @@ node = "25.2.1"
 [tasks.install]
 run = "npm install"
 description = "Install Node.js dependencies"
+
+[tasks.dev]
+run = "npm run dev"
+description = "Start Vite dev server with hot reload"
+
+[tasks.lint]
+run = "npm run lint"
+description = "Lint code with oxlint (type-aware)"
+
+[tasks."lint:fix"]
+run = "npm run lint:fix"
+description = "Lint and auto-fix code with oxlint (type-aware)"
+
+[tasks."lint:strict"]
+run = "npm run lint:strict"
+description = "Lint code with oxlint (strict mode, fail on warnings)"

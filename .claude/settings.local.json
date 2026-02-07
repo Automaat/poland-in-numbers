@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npx oxlint --help:*)",
+      "Bash(npx oxlint:*)",
+      "Bash(gh repo create:*)",
+      "Bash(gh api:*)",
+      "Bash(git push:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
